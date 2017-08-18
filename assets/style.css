@@ -13,16 +13,22 @@ div {
   text-align: center;
 }
 
-.mobile-img {
+img {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile {
   display: none;
+  margin: 0 7%;
 }
 
 @media (max-width: 680px) {
-  .desktop-img {
+  .desktop {
     display: none;
   }
 
-  .mobile-img {
+  .mobile {
     display: block;
   }
 }
