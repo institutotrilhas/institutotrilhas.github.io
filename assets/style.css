@@ -12,3 +12,17 @@ div {
   padding-top: 10%;
   text-align: center;
 }
+
+.mobile-img {
+  display: none;
+}
+
+@media (max-width: 680px) {
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+}
